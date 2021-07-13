@@ -9,7 +9,7 @@ const SearchResults = (props) => {
   )
 
   return (
-    <div className="h-full p-8">
+    <div className="h-full p-8 animate__animated animate__fadeIn animate__fast">
       <Header />
 
       {searchResults.length === 0 ? (

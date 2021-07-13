@@ -11,7 +11,7 @@ const Favorites = () => {
   }, [])
 
   return (
-    <div className="h-full p-8">
+    <div className="h-full p-8 animate__animated animate__fadeIn animate__fast">
       <Header />
 
       <div className="h-3/4">
