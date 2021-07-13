@@ -1,3 +1,5 @@
+/* eslint-disable no-restricted-globals */
+/* eslint-disable no-unused-vars */
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
@@ -10,7 +12,6 @@
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://cra.link/PWA
 
-// eslint-disable-next-line no-restricted-globals
 const ignored = self.__WB_MANIFEST
 
 const isLocalhost = Boolean(
