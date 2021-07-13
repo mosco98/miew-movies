@@ -10,7 +10,8 @@
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://cra.link/PWA
 
-/* self.__WB_MANIFEST */
+// eslint-disable-next-line no-restricted-globals
+const ignored = self.__WB_MANIFEST
 
 const isLocalhost = Boolean(
   window.location.hostname === "localhost" ||
