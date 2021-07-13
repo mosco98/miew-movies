@@ -1,0 +1,4 @@
+export const ActionTypes = {
+  SET_MOVIES: "SET_MOVIES",
+  SET_SEARCH_RESULTS: "SET_SEARCH_RESULTS"
+}
