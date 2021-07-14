@@ -52,7 +52,7 @@ const MovieCard = ({ movie }) => {
       <div className="mx-auto rounded-2xl card">
         <img
           className="mx-auto w-full rounded-md"
-          style={{ height: "22rem" }}
+          style={{ height: "20rem" }}
           src={`${imageUrl}/${movie.poster_path}`}
           alt="movie-poster"
         />

@@ -64,7 +64,7 @@ const Home = () => {
             <span>{errorMsg}</span>
           </div>
         ) : (
-          <div className="px-8 flex justify-center relative mt-8">
+          <div className="px-8 flex justify-center relative mt-8 w-9/12 mx-auto">
             {movies.map((movie) => (
               <MovieCard key={movie.id} movie={movie} />
             ))}
