@@ -27,7 +27,7 @@ const Header = () => {
     }
   }
   return (
-    <header className="space-y-7">
+    <header className="space-y-4">
       <nav className="flex items-center justify-between">
         <div className="space-y-1">
           <h1 className="text-3xl font-light opacity-95">

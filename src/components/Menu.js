@@ -1,4 +1,4 @@
-import { Home, User, Compass, Heart } from "react-feather"
+import { Home, User, ThumbsDown, ThumbsUp } from "react-feather"
 
 import { useLocation, Link } from "react-router-dom"
 
@@ -19,19 +19,19 @@ const Menu = () => {
         </span>
       </Link>
 
-      <Link to="/dislikes">
+      <Link to="/favorites">
         <span className="flex flex-col items-center space-y-2">
-          <Compass size="35" strokeWidth="1.3" />
-          {location.pathname === "/dislikes" && (
+          <ThumbsUp size="35" strokeWidth="1.3" />
+          {location.pathname === "/favorites" && (
             <span className="bg-white p-1 rounded-full"></span>
           )}
         </span>
       </Link>
 
-      <Link to="/favorites">
+      <Link to="/dislikes">
         <span className="flex flex-col items-center space-y-2">
-          <Heart size="35" strokeWidth="1.3" />
-          {location.pathname === "/favorites" && (
+          <ThumbsDown size="35" strokeWidth="1.3" />
+          {location.pathname === "/dislikes" && (
             <span className="bg-white p-1 rounded-full"></span>
           )}
         </span>
