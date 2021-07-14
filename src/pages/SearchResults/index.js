@@ -22,7 +22,7 @@ const SearchResults = (props) => {
             <span className="font-semibold">Search</span> Results
           </h1>
 
-          <div className="px-8 flex justify-center relative mt-8 w-9/12 mx-auto">
+          <div className="px-8 flex justify-center relative mt-6 w-9/12 mx-auto">
             {searchResults.map((movie) => (
               <MovieCard key={movie.id} movie={movie} />
             ))}

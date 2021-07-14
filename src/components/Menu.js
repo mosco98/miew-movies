@@ -7,7 +7,7 @@ const Menu = () => {
 
   return (
     <div
-      className="w-full flex justify-between fixed bottom-0 p-8 left-0"
+      className="w-full flex justify-between fixed bottom-0 px-8 py-6 left-0"
       style={{ backgroundColor: "#1c1c26" }}
     >
       <Link to="/">
