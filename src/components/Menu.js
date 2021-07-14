@@ -12,7 +12,7 @@ const Menu = () => {
     >
       <Link to="/">
         <span className="flex flex-col items-center space-y-2">
-          <Home className="" size="35" strokeWidth="1.3" />
+          <Home className="" size="32" strokeWidth="1.3" />
           {location.pathname === "/" && (
             <span className="bg-white p-1 rounded-full"></span>
           )}
@@ -21,7 +21,7 @@ const Menu = () => {
 
       <Link to="/favorites">
         <span className="flex flex-col items-center space-y-2">
-          <ThumbsUp size="35" strokeWidth="1.3" />
+          <ThumbsUp size="32" strokeWidth="1.3" />
           {location.pathname === "/favorites" && (
             <span className="bg-white p-1 rounded-full"></span>
           )}
@@ -30,7 +30,7 @@ const Menu = () => {
 
       <Link to="/dislikes">
         <span className="flex flex-col items-center space-y-2">
-          <ThumbsDown size="35" strokeWidth="1.3" />
+          <ThumbsDown size="32" strokeWidth="1.3" />
           {location.pathname === "/dislikes" && (
             <span className="bg-white p-1 rounded-full"></span>
           )}
@@ -38,7 +38,7 @@ const Menu = () => {
       </Link>
 
       <span className="flex flex-col items-center space-y-2">
-        <User size="35" strokeWidth="1.3" />
+        <User size="32" strokeWidth="1.3" />
       </span>
     </div>
   )
