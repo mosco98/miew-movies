@@ -6,7 +6,10 @@ const Menu = () => {
   const location = useLocation()
 
   return (
-    <div className="w-full flex justify-between fixed bottom-0 p-8 left-0">
+    <div
+      className="w-full flex justify-between fixed bottom-0 p-8 left-0"
+      style={{ backgroundColor: "#1c1c26" }}
+    >
       <Link to="/">
         <span className="flex flex-col items-center space-y-2">
           <Home className="" size="35" strokeWidth="1.3" />
